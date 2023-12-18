@@ -1,3 +1,3 @@
 # typescript-playground
 
-## I use this test and understand better javascript and tytpescript
+## I use this to test and understand better javascript and typescript
