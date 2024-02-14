@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "s": "bun --watch typescript/temporalApi.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.10.2"
+    "@types/node": "^20.10.2",
+    "prettier": "^3.2.5"
   },
   "dependencies": {
-    "typescript": "^5.3.2"
+    "@js-temporal/polyfill": "^0.4.4",
+    "typescript": "^5.3.3"
   }
 }
